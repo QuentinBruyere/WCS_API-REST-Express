@@ -1,0 +1,10 @@
+POST http://localhost:3000/ad
+
+###
+
+POST http://localhost:3000/ad
+Content-Type: application/json
+
+{
+    "test": "test"
+}
