@@ -29,6 +29,7 @@ INSERT INTO categories (name) VALUES
 ('others');
 
 -- Lier la tables Ads et la table Categories
+-- Impossible avec sqlite3 d'ajouter une foreign key après création, c'est censé passer dans ube DB normale
 
 ALTER TABLE ads
 ADD COLUMN category_id INTEGER, 
